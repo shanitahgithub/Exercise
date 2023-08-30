@@ -1,7 +1,7 @@
 import numpy as np
-y=np.sqrt(5) #function that computes square root.
-print(y) #2.236
+def compute_equation():
+    golden_ratio=(1+np.sqrt(5))/2
+    return golden_ratio
 
-golden_ratio=(1+y)/2!= 1.618
-print(golden_ratio) #true
-
+result= compute_equation()
+print("golden_ratio=", result)
